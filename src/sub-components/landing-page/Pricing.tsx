@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Navbar = () => {
+const Pricing = () => {
   return (
     <div>
-      navbar
+      pricing
     </div>
   )
 }
 
-export default Navbar
+export default Pricing

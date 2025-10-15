@@ -1,9 +1,10 @@
-import React from 'react'
+import Landing from './pages/landing/Landing'
 
 const App = () => {
   return (
     <div>
-      app
+      <Landing />
+      <i className="ri-arrow-left-down-long-line"></i>
     </div>
   )
 }
