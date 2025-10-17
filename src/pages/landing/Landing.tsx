@@ -1,5 +1,3 @@
-import Footer from '../../components/Footer';
-import Navbar from '../../components/Navbar';
 import OpenAccount from '../../components/OpenAccount';
 import Awards from '../../sub-components/landing-page/Awards';
 import Education from '../../sub-components/landing-page/Education';
@@ -10,14 +8,12 @@ import Stats from '../../sub-components/landing-page/Stats';
 const Landing = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Awards />
       <Stats />
       <Pricing />
       <Education />
       <OpenAccount />
-      <Footer />
     </div>
   )
 }
