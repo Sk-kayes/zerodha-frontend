@@ -1,11 +1,11 @@
 import Hero from '../../sub-components/about-page/Hero'
-import Team from '../../sub-components/about-page/Team'
+import Me from '../../sub-components/about-page/Me'
 
 const About = () => {
   return (
     <div>
       <Hero />
-      <Team />
+      <Me />
     </div>
   )
 }
