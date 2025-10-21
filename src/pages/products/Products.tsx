@@ -1,4 +1,4 @@
-import Hero from '../../sub-components/pricing-page/Hero'
+import Hero from '../../sub-components/products-page/Hero'
 import RightSection from '../../sub-components/products-page/RightSection'
 import LeftSection from './../../sub-components/products-page/LeftSection';
 import Universe from '../../sub-components/products-page/Universe';

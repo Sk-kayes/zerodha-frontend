@@ -3,7 +3,7 @@ import Brokerage from '../../sub-components/pricing-page/Brokerage'
 
 const Pricing = () => {
   return (
-    <div>
+    <div className='flex flex-col items-center'>
       <Hero />
       <Brokerage />
     </div>

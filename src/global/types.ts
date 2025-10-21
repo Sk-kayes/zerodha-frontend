@@ -11,3 +11,9 @@ export interface SectionProps {
     btnFourImgSrc?: string;
     btnFourLink?: string;
 }
+
+export interface PricingCardProps {
+    title: string;
+    description: string;
+    imgSrc: string;
+}
