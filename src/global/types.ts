@@ -17,3 +17,8 @@ export interface PricingCardProps {
     description: string;
     imgSrc: string;
 }
+
+export interface SupportCardProps {
+    title: string;
+    icon: React.ReactNode;
+}

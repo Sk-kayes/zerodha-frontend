@@ -85,7 +85,7 @@ const Footer = () => {
             <div className="lower">
                 <div className="max-w-7xl mx-auto px-6 py-8 text-[#8b9498]">
                     <div className="prose prose-sm prose-neutral max-w-none text-[12px] md:text-[12px] space-y-4">
-                        <p>
+                        <p className="text-justify">
                             Zerodha Broking Ltd.: Member of NSE, BSE &amp; MCX – SEBI Registration no.: INZ000031633
                             CDSL/NSDL: Depository services through Zerodha Broking Ltd. – SEBI Registration no.:
                             IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; SEBI
@@ -98,7 +98,7 @@ const Footer = () => {
                             Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF
                         </p>
 
-                        <p>
+                        <p className="text-justify">
                             Procedure to file a complaint on
                             <a href="#" className="ml-1 text-[#106eea] hover:underline">SEBI SCORES</a>: Register on SCORES portal. Mandatory details for filing
                             complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
@@ -110,12 +110,12 @@ const Footer = () => {
                             <a href="#" className="text-[#106eea] hover:underline">Grievances Redressal Mechanism</a>
                         </p>
 
-                        <p>
+                        <p className="text-justify">
                             Investments in securities market are subject to market risks; read all the related documents
                             carefully before investing.
                         </p>
 
-                        <p>
+                        <p className="text-justify">
                             Attention investors: 1) Stock brokers can accept securities as margins from clients only by way
                             of pledge in the depository system w.e.f September 01, 2020. 2) Update your e-mail and phone
                             number with your stock broker / depository participant and receive OTP directly from depository
@@ -123,12 +123,12 @@ const Footer = () => {
                             the consolidated account statement issued by NSDL/CDSL every month.
                         </p>
 
-                        <p>
+                        <p className="text-justify">
                             India&apos;s largest broker based on networth as per NSE.
                             <a href="#" className="ml-1 text-[#106eea] hover:underline">NSE broker factsheet</a>
                         </p>
 
-                        <p>
+                        <p className="text-justify">
                             "Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your
                             stock brokers. Receive information of your transactions directly from Exchange on your
                             mobile/email at the end of the day. Issued in the interest of investors. KYC is one time
