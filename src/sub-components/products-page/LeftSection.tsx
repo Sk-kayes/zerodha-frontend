@@ -1,6 +1,7 @@
-const LeftSection = ({ imgSrc, title, description, btnOneTitle, btnOneLink, btnTwoTitle, btnTwoLink, btnThreeImgSrc, btnThreeLink, btnFourImgSrc, btnFourLink }) => {
+import { type SectionProps } from "../../global/types"
+const LeftSection = ({ imgSrc, title, description, btnOneTitle, btnOneLink, btnTwoTitle, btnTwoLink, btnThreeImgSrc, btnThreeLink, btnFourImgSrc, btnFourLink }: SectionProps) => {
     return (
-        <section className="bg-white py-8 sm:py-12 md:py-16 px-4 sm:px-6">
+        <section className="bg-white py-2 sm:py-12 md:py-2 px-4 sm:px-6">
             <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
                 <div className="flex-1 flex justify-center md:justify-start mb-6 md:mb-0">
                     <img
@@ -20,20 +21,29 @@ const LeftSection = ({ imgSrc, title, description, btnOneTitle, btnOneLink, btnT
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4 sm:gap-6 mb-6">
-                        <a
-                            href={btnOneLink}
-                            className="text-[#1a73e8] inline-flex items-center gap-2 hover:text-black font-[400]"
-                        >
-                            {btnOneTitle} 
-                            <i className="ri-arrow-right-line" />
-                        </a>
-                        <a
-                            href={btnTwoLink}
-                            className="text-[#1a73e8] inline-flex items-center gap-2 hover:text-black font-[400]"
-                        >
-                            {btnTwoTitle} 
-                            <i className="ri-arrow-right-line" />
-                        </a>
+                        {
+                            btnOneTitle && (
+                                <a
+                                    href={btnOneLink}
+                                    className="text-[#1a73e8] inline-flex items-center gap-2 hover:text-black font-[400]"
+                                >
+                                    {btnOneTitle}
+                                    <i className="ri-arrow-right-line" />
+                                </a>
+                            )
+                        }
+
+                        {
+                            btnTwoTitle && (
+                                <a
+                                    href={btnTwoLink}
+                                    className="text-[#1a73e8] inline-flex items-center gap-2 hover:text-black font-[400]"
+                                >
+                                    {btnTwoTitle}
+                                    <i className="ri-arrow-right-line" />
+                                </a>
+                            )
+                        }
                     </div>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 sm:gap-4">
@@ -55,8 +65,6 @@ const LeftSection = ({ imgSrc, title, description, btnOneTitle, btnOneLink, btnT
                 </div>
             </div>
         </section>
-
-
     )
 }
 
